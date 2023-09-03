@@ -7,9 +7,9 @@ export default function(props: any) {
   return (
     <Router>
       <Routes>
-        <Route exact path='/' element={<Index />} />
-        <Route exact path='/:cat' element={<Cat />} />
-        <Route exact path= '*' element={<Navigate to="/" />} />
+        <Route caseSensitive path='/' element={<Index />} />
+        <Route caseSensitive path='/:cat' element={<Cat />} />
+        <Route caseSensitive path= '*' element={<Navigate to="/" />} />
       </Routes>
     </Router>
   )

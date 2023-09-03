@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Cat } from '../../shared/types'
 
-const Cat: () => void = (): void => {
+const Cat: () => void = (): React.Element => {
     const { cat } = useParams()
     const [catToSee, setCatToSee] = useState()
     useEffect(() => {
