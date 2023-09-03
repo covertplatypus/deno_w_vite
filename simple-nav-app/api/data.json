@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Frankie",
+    "id": "2ln",
+    "image": "https://cdn2.thecatapi.com/images/2ln.jpg",
+    "width": 500,
+    "height": 334
+  },
+  {
+    "name": "Mildred",
+    "id": "44c",
+    "image": "https://cdn2.thecatapi.com/images/44c.jpg",
+    "width": 480,
+    "height": 320
+  },
+  {
+    "name": "Hank",
+    "id": "c0f",
+    "image": "https://cdn2.thecatapi.com/images/c0f.jpg",
+    "width": 900,
+    "height": 580
+  },
+  {
+    "name": "Sebastian",
+    "id": "dms",
+    "image": "https://cdn2.thecatapi.com/images/dms.jpg",
+    "width": 600,
+    "height": 800
+  },
+  {
+    "name": "Penelope",
+    "id": "du0",
+    "image": "https://cdn2.thecatapi.com/images/du0.jpg",
+    "width": 1200,
+    "height": 900
+  },
+  {
+    "name": "Cornelia",
+    "id": "dvt",
+    "image": "https://cdn2.thecatapi.com/images/dvt.jpg",
+    "width": 700,
+    "height": 518
+  },
+  {
+    "name": "Spud",
+    "id": "MTU2OTQzNQ",
+    "image": "https://cdn2.thecatapi.com/images/MTU2OTQzNQ.jpg",
+    "width": 1000,
+    "height": 667
+  },
+  {
+    "name": "Harper",
+    "id": "MTgzMTg3Mg",
+    "image": "https://cdn2.thecatapi.com/images/MTgzMTg3Mg.jpg",
+    "width": 444,
+    "height": 640
+  },
+  {
+    "name": "Melissa",
+    "id": "MjA3MzYxNQ",
+    "image": "https://cdn2.thecatapi.com/images/MjA3MzYxNQ.jpg",
+    "width": 405,
+    "height": 551
+  },
+  {
+    "name": "Kirby",
+    "id": "N8bl5RjPG",
+    "image": "https://cdn2.thecatapi.com/images/N8bl5RjPG.jpg",
+    "width": 2560,
+    "height": 1707
+  }
+]
