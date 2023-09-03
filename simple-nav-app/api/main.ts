@@ -1,6 +1,7 @@
 import { Application, Router } from "https://deno.land/x/oak/mod.ts";
 import { oakCors } from "https://deno.land/x/cors/mod.ts";
 import data from "./data.json" assert { type: "json" };
+import { Cat } from '../shared/types'
 
 const router = new Router();
 router
@@ -12,7 +13,7 @@ router
   })
   .get("/api/:cat", (context) => {
     if (context?.params?.cat) {
-      const filtered = data.filter((item) =>
+      const filtered: Cat[] | [] = data.filter((item: Cat) =>
         item["id"] === context.params.cat
       );
       if (filtered.length === 0) {
