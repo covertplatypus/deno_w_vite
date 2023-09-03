@@ -2,7 +2,7 @@ import React, { useEffect, useState} from 'react'
 import { Link} from 'react-router-dom'
 import { Cat } from '../../shared/types'
 
-const Index: () => void = (): React.Element => {
+const Index = (): React.Element => {
     const [cats, setCats] = useState([])
     useEffect(() => {
         fetch(`http://localhost:8000/api/`)
